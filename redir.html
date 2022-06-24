@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>redir(itau)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
   
-</body>
-<script src="script.js"></script>
+  
 
+
+</body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+       apiKey: "AIzaSyBNw4ao5S5LQIfZRrlCzfBkg1jMEjRrcH8",
+  authDomain: "datealgeri.firebaseapp.com",
+  projectId: "datealgeri",
+  storageBucket: "datealgeri.appspot.com",
+  messagingSenderId: "418962581870",
+  appId: "1:418962581870:web:b4b8d6e7db514d66d2f97f"
+
+  };
+    // Initialize Firebase
+  
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="script.js"></script>
+  
 </html>
