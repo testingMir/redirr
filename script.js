@@ -3,7 +3,7 @@ const db = firebase.firestore();
 
 
 
-const obtenerr = () => db.collection('redir').get();
+const obtenerr = () => db.collection('redird').get();
  window.addEventListener("DOMContentLoaded", async (e) =>{
    
 
